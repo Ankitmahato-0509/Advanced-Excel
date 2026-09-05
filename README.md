@@ -1,3 +1,5 @@
+# Stuff I Learn About Advanced Excel for Reference This repository contains my **personal notes and practice files on Excel**. Each section includes the **Excel file name and a screenshot of the output for quick reference**.
+
 # 19. SUMPRODUCT
 
 **File:** `01.SUMPRODUCT.xlsx`
