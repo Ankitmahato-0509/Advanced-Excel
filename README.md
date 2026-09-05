@@ -1,8 +1,3 @@
-# Stuff I Learn About Advanced Excel for Reference
-
-This repository contains my **personal notes and practice files on Excel**.
-Each section includes the **Excel file name and a screenshot of the output for quick reference**.
-
 # 19. SUMPRODUCT
 
 **File:** `01.SUMPRODUCT.xlsx`
@@ -39,7 +34,7 @@ The exercise calculates the total product sales by multiplying the corresponding
 
 ### Screenshot
 
-![Array Multiplication](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/images/SUMPRODUCT-Array-Multiplication.png?raw=true)
+![Array Multiplication](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183409.png?raw=true)
 
 
 ## Revenue Calculations
@@ -67,7 +62,7 @@ The exercise calculates:
 
 ### Screenshot
 
-![Revenue Calculations](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/images/SUMPRODUCT-Revenue-Calculations.png?raw=true)
+![Revenue Calculations](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183431.png?raw=true)
 
 
 ## Conditional Calculations
@@ -93,12 +88,12 @@ The dataset includes:
 
 ### Screenshot
 
-![Conditional Calculations](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/images/SUMPRODUCT-Conditional-Calculations.png?raw=true)
+![Conditional Calculations](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
 
 
 ## Data Analysis
 
-The exercise uses sales data to practice **SUMPRODUCT** for array multiplication, revenue calculations, and conditional calculations.
+The exercise uses **SUMPRODUCT** for array multiplication, revenue calculations, and conditional calculations.
 
 The analysis includes:
 
