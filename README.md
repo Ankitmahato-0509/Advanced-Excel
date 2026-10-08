@@ -110,6 +110,173 @@ The analysis includes:
 - Applying multiple conditions
 - Performing conditional calculations
 
+# 02. Advanced XLOOKUP & XMATCH
+
+**File:** `02.Advanced XLOOKUP & XMATCH.xlsx`
+
+### Concepts Covered
+
+- XMATCH Function
+- XLOOKUP Function
+- Multiple-Criteria XLOOKUP
+- Reverse XLOOKUP
+- Exact Match
+- Wildcard Match
+- Multiple Conditions
+- Searching from Last to First
+- Dynamic Lookup
+- Advanced Data Retrieval
+
+---
+
+## XMATCH Function
+
+The **XMATCH function** is used to find the relative position of a value within a range or array.
+
+### Dataset
+
+The dataset contains student information:
+
+- Student_ID
+- Student_Name
+- Course
+- Subject
+- City
+- Marks
+- Grade
+
+### Exercises
+
+- Find the position of **Python** in the Subject column.
+- Use **wildcard matching** to find a student's position.
+
+### Concepts Covered
+
+- Exact Match
+- Wildcard Match
+- Finding the position of a value
+- Using `*` wildcard
+- Dynamic position lookup
+
+### Screenshot
+
+![XMATCH Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20XMATCH.png?raw=true)
+
+---
+
+## Multiple-Criteria XLOOKUP
+
+**XLOOKUP** can be combined with multiple conditions to retrieve a value when more than one criterion must be satisfied.
+
+### Dataset
+
+The dataset contains employee information:
+
+- Employee_ID
+- Employee_Name
+- Department
+- Job_Title
+- City
+- Experience_Years
+- Salary
+- Performance_Rating
+
+### Exercises
+
+- Find the **Salary** of an employee based on Department and City.
+- Find the **Department** of an employee based on Employee Name and City.
+- Find an employee based on Department and Experience.
+
+### Concepts Covered
+
+- Multiple-Criteria XLOOKUP
+- Combining multiple conditions
+- Concatenating lookup criteria
+- Retrieving data using multiple conditions
+- Advanced employee data lookup
+
+### Screenshot
+
+![Multiple-Criteria XLOOKUP](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20Multiple-Criteria%20XLOOKUP.png?raw=true)
+
+---
+
+## Reverse XLOOKUP
+
+**Reverse XLOOKUP** is used to search from the **last occurrence to the first occurrence**.
+
+This is useful when you need to find the **latest or last matching record**.
+
+### Dataset
+
+The dataset contains order information:
+
+- Order_ID
+- Customer_Name
+- Product
+- Category
+- City
+- Salesperson
+- Amount
+
+### Exercises
+
+- Find the **last customer who bought a Laptop**.
+- Find the **last customer handled by salesperson Amit**.
+- Find the **Order ID of the last order from Delhi**.
+
+### Concepts Covered
+
+- Reverse XLOOKUP
+- Last occurrence lookup
+- Searching from bottom to top
+- Finding the latest matching record
+- XLOOKUP Search Mode
+- Dynamic lookup
+
+### Screenshot
+
+![Reverse XLOOKUP](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20Reverse%20XLOOKUP.png?raw=true)
+
+---
+
+# XLOOKUP & XMATCH Summary
+
+| Function / Technique | Purpose |
+|---|---|
+| **XMATCH** | Finds the position of a value in a range |
+| **XMATCH Wildcard** | Finds a position using wildcard matching |
+| **XLOOKUP** | Searches for a value and returns a related result |
+| **Multiple-Criteria XLOOKUP** | Performs lookups using multiple conditions |
+| **Reverse XLOOKUP** | Finds the last matching occurrence |
+| **Wildcard `*`** | Matches any number of characters |
+| **Search Mode `-1`** | Searches from last to first |
+
+---
+
+# Data Analysis
+
+These exercises demonstrate how **XLOOKUP and XMATCH** can be used for advanced Excel data analysis.
+
+The practice includes:
+
+- Finding the position of values
+- Using wildcard matching
+- Performing multiple-condition lookups
+- Finding employee salary
+- Finding employee department
+- Finding the last matching customer
+- Finding the last order from a specific city
+- Searching from bottom to top
+- Performing advanced lookups without helper columns
+
+## Key Learning
+
+**XLOOKUP** and **XMATCH** are powerful modern Excel functions for performing flexible and dynamic lookups.
+
+By combining these functions with **multiple criteria, wildcard matching, and reverse searching**, complex lookup requirements can be handled efficiently in Excel.
+
+
 # 03. Dynamic Array Functions
 
 **File:** `03.Dynamic Array Functions.xlsx`
