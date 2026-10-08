@@ -307,9 +307,9 @@ By combining these functions with **multiple criteria, wildcard matching, and re
 
 ---
 
-## Dataset
+# Dataset
 
-The exercises use a **One Piece Characters dataset** containing information about characters.
+The exercises use a **One Piece Characters dataset** containing information about different characters.
 
 ### Dataset Columns
 
@@ -328,6 +328,10 @@ The exercises use a **One Piece Characters dataset** containing information abou
 * First_Appearance
 
 The dataset is used throughout the exercises to demonstrate how Dynamic Array Functions can automatically return multiple results.
+
+### Dataset Screenshot
+
+![Dataset](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20DATASET.png?raw=true)
 
 ---
 
@@ -511,14 +515,14 @@ The filtered results are then sorted based on **Bounty**.
 
 # Dynamic Array Functions Summary
 
-| Function               | Purpose                                      |
-| ---------------------- | -------------------------------------------- |
-| **FILTER**             | Returns data that meets specified conditions |
-| **SORT**               | Sorts an array based on a selected column    |
-| **SORTBY**             | Sorts an array based on another range        |
-| **UNIQUE**             | Returns unique values from a range           |
-| **SEQUENCE**           | Generates a sequence of numbers              |
-| **Combined Functions** | Performs advanced dynamic data analysis      |
+| Function | Purpose |
+|----------|---------|
+| **FILTER** | Returns data that meets specified conditions |
+| **SORT** | Sorts an array based on a selected column |
+| **SORTBY** | Sorts an array based on another range |
+| **UNIQUE** | Returns unique values from a range |
+| **SEQUENCE** | Generates a sequence of numbers |
+| **Combined Functions** | Performs advanced dynamic data analysis |
 
 ---
 
@@ -551,4 +555,3 @@ These functions are especially useful for:
 * Creating automated lists
 * Sorting and filtering large datasets
 * Reducing manual work in Excel
-
