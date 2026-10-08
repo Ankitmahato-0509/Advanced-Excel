@@ -110,6 +110,11 @@ The analysis includes:
 - Applying multiple conditions
 - Performing conditional calculations
 
+# Stuff I Learn About Advanced Excel for Reference
+
+This repository contains my **personal notes and practice files on Advanced Excel**.  
+Each section includes the **Excel file name and a screenshot of the output for quick reference**.
+
 # 02. Advanced XLOOKUP & XMATCH
 
 **File:** `02.Advanced XLOOKUP & XMATCH.xlsx`
@@ -147,8 +152,9 @@ The dataset contains student information:
 
 ### Exercises
 
-- Find the position of **Python** in the Subject column.
-- Use **wildcard matching** to find a student's position.
+- Find the position of a student name using a wildcard.
+- Find the position of a value within a range.
+- Use wildcard matching for partial text.
 
 ### Concepts Covered
 
@@ -160,7 +166,7 @@ The dataset contains student information:
 
 ### Screenshot
 
-![XMATCH Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20XMATCH.png?raw=true)
+![XMATCH Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20063658.png?raw=true)
 
 ---
 
@@ -183,9 +189,9 @@ The dataset contains employee information:
 
 ### Exercises
 
-- Find the **Salary** of an employee based on Department and City.
-- Find the **Department** of an employee based on Employee Name and City.
-- Find an employee based on Department and Experience.
+- Find the **Salary** of an employee who works in **IT** and **Delhi**.
+- Find the **Department** of an employee based on **Employee Name** and **City**.
+- Find the **Employee** where **Department = Finance** and **Experience = 6**.
 
 ### Concepts Covered
 
@@ -197,7 +203,7 @@ The dataset contains employee information:
 
 ### Screenshot
 
-![Multiple-Criteria XLOOKUP](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20Multiple-Criteria%20XLOOKUP.png?raw=true)
+![Multiple-Criteria XLOOKUP](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20063713.png?raw=true)
 
 ---
 
@@ -224,6 +230,7 @@ The dataset contains order information:
 - Find the **last customer who bought a Laptop**.
 - Find the **last customer handled by salesperson Amit**.
 - Find the **Order ID of the last order from Delhi**.
+- Find a customer who bought a **Laptop from Delhi**.
 
 ### Concepts Covered
 
@@ -236,7 +243,7 @@ The dataset contains order information:
 
 ### Screenshot
 
-![Reverse XLOOKUP](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20Reverse%20XLOOKUP.png?raw=true)
+![Reverse XLOOKUP](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-08%20063729.png?raw=true)
 
 ---
 
@@ -265,6 +272,7 @@ The practice includes:
 - Performing multiple-condition lookups
 - Finding employee salary
 - Finding employee department
+- Finding employees based on multiple conditions
 - Finding the last matching customer
 - Finding the last order from a specific city
 - Searching from bottom to top
@@ -275,7 +283,6 @@ The practice includes:
 **XLOOKUP** and **XMATCH** are powerful modern Excel functions for performing flexible and dynamic lookups.
 
 By combining these functions with **multiple criteria, wildcard matching, and reverse searching**, complex lookup requirements can be handled efficiently in Excel.
-
 
 # 03. Dynamic Array Functions
 
