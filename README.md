@@ -288,7 +288,7 @@ By combining these functions with **multiple criteria, wildcard matching, and re
 
 **File:** `03.Dynamic Array Functions.xlsx`
 
-### Concepts Covered
+## Concepts Covered
 
 * Dynamic Array Functions
 * FILTER Function
@@ -331,7 +331,7 @@ The dataset is used throughout the exercises to demonstrate how Dynamic Array Fu
 
 ### Dataset Screenshot
 
-![Dataset](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20DATASET.png?raw=true)
+![Dataset](Images/Screenshot%202026-10-08%20064520.png)
 
 ---
 
@@ -359,7 +359,7 @@ The FILTER function is used to return characters whose **Affiliation** is:
 
 ### Screenshot
 
-![FILTER Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183409.png?raw=true)
+![FILTER Function](Images/Screenshot%202026-10-08%20064536.png)
 
 ---
 
@@ -387,7 +387,7 @@ The dataset is sorted using the **Bounty_M** column in descending order.
 
 ### Screenshot
 
-![SORT Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183431.png?raw=true)
+![SORT Function](Images/Screenshot%202026-10-08%20064558.png)
 
 ---
 
@@ -415,7 +415,7 @@ The dataset is dynamically sorted using the **Age** column.
 
 ### Screenshot
 
-![SORTBY Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
+![SORTBY Function](Images/Screenshot%202026-10-08%20064623.png)
 
 ---
 
@@ -448,7 +448,7 @@ The UNIQUE function is used to create a list of all unique affiliations such as:
 
 ### Screenshot
 
-![UNIQUE Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
+![UNIQUE Function](Images/Screenshot%202026-10-08%20064637.png)
 
 ---
 
@@ -478,7 +478,7 @@ for the characters in the dataset.
 
 ### Screenshot
 
-![SEQUENCE Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
+![SEQUENCE Function](Images/Screenshot%202026-10-08%20064650.png)
 
 ---
 
@@ -509,7 +509,7 @@ The filtered results are then sorted based on **Bounty**.
 
 ### Screenshot
 
-![Combining Dynamic Array Functions](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183431.png?raw=true)
+![Combining Dynamic Array Functions](Images/Screenshot%202026-10-08%20064711.png)
 
 ---
 
