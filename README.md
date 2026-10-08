@@ -109,3 +109,272 @@ The analysis includes:
 - Analyzing sales by country
 - Applying multiple conditions
 - Performing conditional calculations
+
+# 03. Dynamic Array Functions
+
+**File:** `03.Dynamic Array Functions.xlsx`
+
+### Concepts Covered
+
+* Dynamic Array Functions
+* FILTER Function
+* SORT Function
+* SORTBY Function
+* UNIQUE Function
+* SEQUENCE Function
+* Combining Dynamic Array Functions
+* Filtering data based on conditions
+* Sorting data dynamically
+* Extracting unique values
+* Generating sequential numbers
+* Creating dynamic reports
+* Working with spilled arrays
+* Performing calculations without helper columns
+
+---
+
+## Dataset
+
+The exercises use a **One Piece Characters dataset** containing information about characters.
+
+### Dataset Columns
+
+* Character
+* Gender
+* Affiliation
+* Role
+* Bounty_M
+* Age
+* Devil_Fruit
+* Haki
+* Origin
+* Status
+* Rank
+* Height_cm
+* First_Appearance
+
+The dataset is used throughout the exercises to demonstrate how Dynamic Array Functions can automatically return multiple results.
+
+---
+
+# FILTER Function
+
+The **FILTER function** is used to return only the rows or columns that meet a specified condition.
+
+### Exercise
+
+Find the crew members of the **Straw Hat Pirates** from the dataset.
+
+### Concepts Covered
+
+* Filtering rows based on a condition
+* Using a text condition
+* Returning multiple matching records
+* Dynamic spilling of results
+* Filtering an entire dataset
+
+### Example
+
+The FILTER function is used to return characters whose **Affiliation** is:
+
+`Straw Hat Pirates`
+
+### Screenshot
+
+![FILTER Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183409.png?raw=true)
+
+---
+
+# SORT Function
+
+The **SORT function** is used to dynamically sort a dataset based on a selected column.
+
+### Exercise
+
+Sort the dataset based on **Bounty**, from:
+
+**Highest → Lowest**
+
+### Concepts Covered
+
+* Sorting data dynamically
+* Sorting based on a specific column
+* Descending order
+* Returning the complete sorted dataset
+* Dynamic array sorting
+
+### Example
+
+The dataset is sorted using the **Bounty_M** column in descending order.
+
+### Screenshot
+
+![SORT Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183431.png?raw=true)
+
+---
+
+# SORTBY Function
+
+The **SORTBY function** is used to sort one array based on the values in another array.
+
+### Exercise
+
+Sort the dataset based on **Age**, from:
+
+**Highest → Lowest**
+
+### Concepts Covered
+
+* Sorting using another range
+* Sorting by Age
+* Descending order
+* Dynamic sorting
+* Sorting an entire dataset based on a selected column
+
+### Example
+
+The dataset is dynamically sorted using the **Age** column.
+
+### Screenshot
+
+![SORTBY Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
+
+---
+
+# UNIQUE Function
+
+The **UNIQUE function** is used to extract distinct values from a dataset.
+
+### Exercise
+
+Find all unique **Affiliations** from the dataset.
+
+### Concepts Covered
+
+* Extracting unique values
+* Removing duplicate values
+* Creating dynamic lists
+* Working with text data
+* Dynamic spilling of unique results
+
+### Example
+
+The UNIQUE function is used to create a list of all unique affiliations such as:
+
+* Marines
+* Whitebeard Pirates
+* Straw Hat Pirates
+* Revolutionary Army
+* Big Mom Pirates
+* and other affiliations
+
+### Screenshot
+
+![UNIQUE Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
+
+---
+
+# SEQUENCE Function
+
+The **SEQUENCE function** is used to generate a sequence of numbers automatically.
+
+### Exercise
+
+Generate a sequential number for each character in the dataset.
+
+### Concepts Covered
+
+* Generating sequential numbers
+* Automatic numbering
+* Dynamic arrays
+* Creating serial numbers
+* Using SEQUENCE with other data
+
+### Example
+
+The SEQUENCE function generates numbers such as:
+
+`1, 2, 3, 4, 5, ...`
+
+for the characters in the dataset.
+
+### Screenshot
+
+![SEQUENCE Function](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183420.png?raw=true)
+
+---
+
+# Combining Dynamic Array Functions
+
+Dynamic Array Functions can be combined to perform more advanced data analysis.
+
+### Exercise
+
+Find **Straw Hat Pirates** and sort them based on their **Bounty**.
+
+### Concepts Covered
+
+* Combining FILTER and SORT
+* Filtering data first
+* Sorting filtered results
+* Creating dynamic reports
+* Working with multiple dynamic arrays
+* Performing analysis without helper columns
+
+### Example
+
+The exercise first filters the dataset to find members of the:
+
+`Straw Hat Pirates`
+
+The filtered results are then sorted based on **Bounty**.
+
+### Screenshot
+
+![Combining Dynamic Array Functions](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-09-05%20183431.png?raw=true)
+
+---
+
+# Dynamic Array Functions Summary
+
+| Function               | Purpose                                      |
+| ---------------------- | -------------------------------------------- |
+| **FILTER**             | Returns data that meets specified conditions |
+| **SORT**               | Sorts an array based on a selected column    |
+| **SORTBY**             | Sorts an array based on another range        |
+| **UNIQUE**             | Returns unique values from a range           |
+| **SEQUENCE**           | Generates a sequence of numbers              |
+| **Combined Functions** | Performs advanced dynamic data analysis      |
+
+---
+
+# Data Analysis
+
+This exercise demonstrates how Dynamic Array Functions can make Excel analysis more efficient and flexible.
+
+The analysis includes:
+
+* Filtering characters based on affiliation
+* Sorting characters by bounty
+* Sorting characters by age
+* Extracting unique affiliations
+* Generating automatic sequence numbers
+* Creating dynamic filtered reports
+* Combining FILTER and SORT
+* Working with automatically expanding results
+* Reducing the need for helper columns
+
+## Key Learning
+
+Dynamic Array Functions allow Excel formulas to **return multiple results automatically** and make those results **spill into adjacent cells**.
+
+These functions are especially useful for:
+
+* Data cleaning
+* Data analysis
+* Dynamic reports
+* Dashboard preparation
+* Creating automated lists
+* Sorting and filtering large datasets
+* Reducing manual work in Excel
+
