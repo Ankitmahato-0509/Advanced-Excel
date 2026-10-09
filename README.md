@@ -797,7 +797,7 @@ The analysis includes:
 
 # Stuff I Learn About Advanced Excel for Reference
 
-This repository contains my **personal notes, practice exercises, and Excel files on Advanced Excel**. Each topic includes concepts covered, practical formulas, exercises, and screenshots for reference.
+This repository contains my personal notes, practice exercises, and Excel files on Advanced Excel. Each section covers concepts, formulas, practical exercises, and screenshots for reference.
 
 # 04. Excel Tables & Structured References
 
@@ -844,9 +844,9 @@ This exercise uses a hospital dataset containing patient admission information, 
 - Stay Days
 - Status
 
-### Screenshot
+### Dataset Screenshot
 
-[View Dataset Screenshot](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-09%20142608.png)
+![Dataset Screenshot](Images/Screenshot%202026-10-09%20142608.png)
 
 ---
 
@@ -863,9 +863,9 @@ Excel Tables organize data into a structured format, making it easier to manage,
 - Referencing table columns
 - Working with structured datasets
 
-### Screenshot
+### Excel Tables Screenshot
 
-[View Excel Tables Screenshot](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-09%20142621.png)
+![Excel Tables Screenshot](Images/Screenshot%202026-10-09%20142621.png)
 
 ---
 
@@ -913,9 +913,9 @@ Excel Tables organize data into a structured format, making it easier to manage,
 =COUNTIF(Table5[Department],"Orthopedics")
 ```
 
-### Screenshot
+### Structured References Screenshot
 
-[View Structured References Screenshot](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-09%20142631.png)
+![Structured References Screenshot](Images/Screenshot%202026-10-09%20142631.png)
 
 ---
 
@@ -938,15 +938,15 @@ Excel Tables organize data into a structured format, making it easier to manage,
 - Applying formulas to table rows
 - Summarizing calculated values
 
-### Screenshot
+### Calculated Columns Screenshot
 
-[View Calculated Columns Screenshot](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-09%20142638.png)
+![Calculated Columns Screenshot](Images/Screenshot%202026-10-09%20142638.png)
 
 ---
 
 ## 5. Dynamic Ranges
 
-This exercise demonstrates how Excel Tables and structured references can help build flexible hospital summary reports that automatically accommodate new records added to the table.
+This exercise demonstrates how Excel Tables and structured references can help build flexible hospital summary reports that accommodate new records added to the table.
 
 ### Summary Report Columns
 
@@ -993,9 +993,9 @@ This exercise demonstrates how Excel Tables and structured references can help b
 
 *Note: Adjust the cell references and table name if your worksheet uses different locations or names.*
 
-### Screenshot
+### Dynamic Range Screenshot
 
-[View Dynamic Range Screenshot](https://github.com/Ankitmahato-0509/Advanced-Excel/blob/main/Images/Screenshot%202026-10-09%20142648.png)
+![Dynamic Range Screenshot](Images/Screenshot%202026-10-09%20142648.png)
 
 ---
 
