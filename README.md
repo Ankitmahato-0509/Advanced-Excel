@@ -110,11 +110,6 @@ The analysis includes:
 - Applying multiple conditions
 - Performing conditional calculations
 
-# Stuff I Learn About Advanced Excel for Reference
-
-This repository contains my **personal notes and practice files on Advanced Excel**.  
-Each section includes the **Excel file name and a screenshot of the output for quick reference**.
-
 # 02. Advanced XLOOKUP & XMATCH
 
 **File:** `02.Advanced XLOOKUP & XMATCH.xlsx`
@@ -793,11 +788,6 @@ The analysis includes:
 ### Key Learning
 
 **Excel Tables and Structured References** make formulas easier to read, maintain, and reuse. Combined with functions such as **SUM, AVERAGE, SUMIF, COUNTIF, and AVERAGEIF**, they help create flexible summaries and reports for data analysis.
-
-
-# Stuff I Learn About Advanced Excel for Reference
-
-This repository contains my personal notes, practice exercises, and Excel files on Advanced Excel. Each section covers concepts, formulas, practical exercises, and screenshots for reference.
 
 # 04. Excel Tables & Structured References
 
