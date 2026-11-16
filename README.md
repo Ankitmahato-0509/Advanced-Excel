@@ -830,7 +830,7 @@ Removes repeated records so every employee appears only once.
 
 **Screenshot**
 
-![Remove Duplicates](Screenshot_2026-11-16_231014.png)
+![Remove Duplicates](images/01_Remove_Duplicates.png)
 
 ---
 
@@ -851,7 +851,7 @@ Comparing the two lengths confirms how many extra spaces were removed.
 
 **Screenshot**
 
-![TRIM Spaces](Screenshot_2026-11-16_231120.png)
+![TRIM Spaces](images/02_TRIM_Spaces.png)
 
 ---
 
@@ -870,7 +870,7 @@ Converts inconsistent text case into a uniform format.
 
 **Screenshot**
 
-![Case Standardize](Screenshot_2026-11-16_231141.png)
+![Case Standardize](images/03_Case_Standardize.png)
 
 ---
 
@@ -887,7 +887,7 @@ Converts dates typed in mixed formats (`12.08.2025`, `28.10.25`, `05-08-2025`) i
 
 **Screenshot**
 
-![Date Standardize](Screenshot_2026-11-16_231201.png)
+![Date Standardize](images/04_Date_Standardize.png)
 
 ---
 
@@ -906,7 +906,7 @@ Example: `Ravi@Kumar#123` → `RaviKumar123`
 
 **Screenshot**
 
-![Special Characters](Screenshot_2026-11-16_231218.png)
+![Special Characters](images/05_Special_Characters.png)
 
 ---
 
@@ -919,7 +919,7 @@ Splits a full name into First Name and Last Name.
 
 **Screenshot**
 
-![Split Name](Screenshot_2026-11-16_231234.png)
+![Split Name](images/06_Split_Name.png)
 
 ---
 
@@ -938,7 +938,7 @@ Standardizes mobile numbers typed as `9000000002`, `919000000006` or `0091900000
 
 **Screenshot**
 
-![Phone Numbers](Screenshot_2026-11-16_231252.png)
+![Phone Numbers](images/07_Phone_Numbers.png)
 
 ---
 
@@ -959,7 +959,7 @@ Example: `101-9 Cherry Lane-Delhi-Delhi-500011`
 
 **Screenshot**
 
-![Merge Columns](Screenshot_2026-11-16_231306.png)
+![Merge Columns](images/08_Merge_Columns.png)
 
 ---
 
@@ -982,7 +982,7 @@ D5: =SUM(D4,C5)
 
 **Screenshot**
 
-![Text to Number](Screenshot_2026-11-16_231322.png)
+![Text to Number](images/09_Text_to_Number.png)
 
 ---
 
@@ -1002,7 +1002,7 @@ B5: =B4    → blank cell takes the value above
 
 **Screenshot**
 
-![Fill Down Blanks](Screenshot_2026-11-16_231335.png)
+![Fill Down Blanks](images/10_Fill_Down_Blanks.png)
 
 ---
 
@@ -1017,7 +1017,7 @@ Pulls the quantity out of order notes such as `Delivery Qty: 25 units - urgent`.
 
 **Screenshot**
 
-![Extract Numbers](Screenshot_2026-11-16_231347.png)
+![Extract Numbers](images/11_Extract_Numbers.png)
 
 ---
 
@@ -1034,7 +1034,7 @@ Splits a combined `City, State` column into two columns.
 
 **Screenshot**
 
-![Split City-State](Screenshot_2026-11-16_231357.png)
+![Split City-State](images/12_Split_City_State.png)
 
 ---
 
@@ -1050,7 +1050,7 @@ The raw employee dataset used for the client task.
 
 **Screenshot**
 
-![Raw Emp. Data](Screenshot_2026-11-16_231408.png)
+![Raw Emp. Data](images/13_Raw_Emp_Data.png)
 
 ---
 
@@ -1067,7 +1067,7 @@ Applies the cleaning steps to the raw data and answers the client's request.
 
 **Screenshot**
 
-![Clients Requirement](Screenshot_2026-11-16_231434.png)
+![Clients Requirement](images/14_Clients_Requirement.png)
 
 ---
 
@@ -1107,3 +1107,5 @@ The practice includes:
 
 ### Key Learning
 Clean data is the foundation of reliable analysis. Excel provides formulas and built-in tools (TRIM, PROPER, TEXTJOIN, REGEXREPLACE, Flash Fill, Text to Columns, Remove Duplicates, Conditional Formatting) that fix common data-quality problems quickly and without manual editing.
+
+---
