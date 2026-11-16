@@ -1387,24 +1387,6 @@ Applies the cleaning steps to the raw data and answers the client's request.
 
 ---
 
-### Data Cleaning Summary
-
-| Problem | Technique | Function / Feature |
-|---|---|---|
-| Duplicate rows | Remove Duplicates | Data → Remove Duplicates |
-| Extra spaces | Trim text | `TRIM`, `LEN` |
-| Inconsistent case | Change case | `PROPER`, `UPPER`, `LOWER` |
-| Mixed date formats | Standardize dates | Date number format |
-| Junk symbols | Keep letters & digits | `REGEXREPLACE` |
-| Full name in one cell | Split text | Flash Fill / Text to Columns |
-| Inconsistent phone numbers | Keep last 10 digits | `RIGHT` |
-| Address in many columns | Merge | `TEXTJOIN` |
-| Numbers stored as text | Convert to numbers | Clean text + `SUM` |
-| Blank cells in exported report | Fill down | Go To Special → Blanks |
-| Number inside text | Extract | Flash Fill / `REGEXEXTRACT` |
-| Combined City, State | Split | Text to Columns |
-| Salary above a limit | Highlight | Conditional Formatting |
-
 ### Data Analysis
 These exercises show how raw, messy data is cleaned and made ready for analysis.
 
@@ -1425,22 +1407,3 @@ The practice includes:
 Clean data is the foundation of reliable analysis. Excel provides formulas and built-in tools (TRIM, PROPER, TEXTJOIN, REGEXREPLACE, Flash Fill, Text to Columns, Remove Duplicates, Conditional Formatting) that fix common data-quality problems quickly and without manual editing.
 
 ---
-
-### Screenshot Index (in order)
-
-| # | Sheet | Screenshot File | Link |
-|---|---|---|---|
-| 1 | Remove Duplicates | `Screenshot 2026-11-16 231014.png` | [View](Images/Screenshot%202026-11-16%20231014.png) |
-| 2 | TRIM Spaces | `Screenshot 2026-11-16 231120.png` | [View](Images/Screenshot%202026-11-16%20231120.png) |
-| 3 | Case Standardize | `Screenshot 2026-11-16 231141.png` | [View](Images/Screenshot%202026-11-16%20231141.png) |
-| 4 | Date Standardize | `Screenshot 2026-11-16 231201.png` | [View](Images/Screenshot%202026-11-16%20231201.png) |
-| 5 | Special Characters | `Screenshot 2026-11-16 231218.png` | [View](Images/Screenshot%202026-11-16%20231218.png) |
-| 6 | Split Name | `Screenshot 2026-11-16 231234.png` | [View](Images/Screenshot%202026-11-16%20231234.png) |
-| 7 | Phone Numbers | `Screenshot 2026-11-16 231252.png` | [View](Images/Screenshot%202026-11-16%20231252.png) |
-| 8 | Merge Columns | `Screenshot 2026-11-16 231306.png` | [View](Images/Screenshot%202026-11-16%20231306.png) |
-| 9 | Text to Number | `Screenshot 2026-11-16 231322.png` | [View](Images/Screenshot%202026-11-16%20231322.png) |
-| 10 | Fill Down Blanks | `Screenshot 2026-11-16 231335.png` | [View](Images/Screenshot%202026-11-16%20231335.png) |
-| 11 | Extract Numbers | `Screenshot 2026-11-16 231347.png` | [View](Images/Screenshot%202026-11-16%20231347.png) |
-| 12 | Split City-State | `Screenshot 2026-11-16 231357.png` | [View](Images/Screenshot%202026-11-16%20231357.png) |
-| 13 | Raw Emp. Data | `Screenshot 2026-11-16 231408.png` | [View](Images/Screenshot%202026-11-16%20231408.png) |
-| 14 | Clients Requirement | `Screenshot 2026-11-16 231434.png` | [View](Images/Screenshot%202026-11-16%20231434.png) |
