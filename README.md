@@ -815,8 +815,6 @@ Through this practice, I learned how to:
 - Conditional Formatting on Salary Data
 - Cleaning data without manual editing
 
-The workbook has 14 sheets, one data-cleaning problem per sheet.
-
 ---
 
 ### 1. Remove Duplicates
