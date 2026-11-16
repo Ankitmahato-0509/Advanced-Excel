@@ -796,3 +796,314 @@ Through this practice, I learned how to:
 - Apply Excel features to practical data analysis scenarios.
 
 
+## 05. Data Cleaning
+**File:** `05.Data Cleaning.xlsx`
+
+### Concepts Covered
+- Removing Duplicate Entries
+- TRIM, LEN Functions
+- PROPER, UPPER, LOWER Functions
+- Date Standardization
+- Removing Special / Junk Characters (REGEXREPLACE)
+- Splitting Full Name into First & Last Name
+- Standardizing Phone Numbers (RIGHT)
+- Merging Columns (TEXTJOIN)
+- Converting Text Numbers to Real Numbers
+- Filling Down Blank Cells
+- Extracting Numbers from Text
+- Splitting City & State
+- Conditional Formatting on Salary Data
+- Cleaning data without manual editing
+
+The workbook has 14 sheets, one data-cleaning problem per sheet.
+
+---
+
+### 1. Remove Duplicates
+Removes repeated records so every employee appears only once.
+
+**Dataset:** Sr No, Employee ID, Employee Name, Department, Location, Salary (₹)
+
+**Exercise:** The table has 10 rows (EMP101, EMP102 and EMP103 repeat). After removing duplicates, 7 unique records remain.
+
+**Method:** Data → Remove Duplicates (select Employee ID, Name, Department, Location and Salary).
+
+**Screenshot**
+
+![Remove Duplicates](Screenshot_2026-11-16_231014.png)
+
+---
+
+### 2. TRIM Spaces
+Removes leading, trailing and repeated spaces inside names.
+
+**Dataset:** Raw Name (with spaces), Character length (Raw), Clean Name, Character length (Clean)
+
+**Formulas Covered**
+
+```excel
+=LEN(B4)      → length of raw text
+=TRIM(B4)     → removes extra spaces
+=LEN(D4)      → length after cleaning
+```
+
+Comparing the two lengths confirms how many extra spaces were removed.
+
+**Screenshot**
+
+![TRIM Spaces](Screenshot_2026-11-16_231120.png)
+
+---
+
+### 3. Case Standardize
+Converts inconsistent text case into a uniform format.
+
+**Dataset:** Customer (Raw Case), City (Raw), Product (Raw)
+
+**Formulas Covered**
+
+```excel
+=PROPER(B4)   → Rohit Sharma
+=UPPER(D4)    → DELHI
+=LOWER(F4)    → laptop bag
+```
+
+**Screenshot**
+
+![Case Standardize](Screenshot_2026-11-16_231141.png)
+
+---
+
+### 4. Date Standardize
+Converts dates typed in mixed formats (`12.08.2025`, `28.10.25`, `05-08-2025`) into one proper Excel date format (`DD-MM-YYYY`).
+
+**Dataset:** Sr No, Order Date (Raw Text), Order Date
+
+**Concepts Covered**
+- Text dates vs. real dates
+- Replacing `.` with `-`
+- Two-digit year to four-digit year
+- Applying the Date number format
+
+**Screenshot**
+
+![Date Standardize](Screenshot_2026-11-16_231201.png)
+
+---
+
+### 5. Special Characters
+Removes symbols and junk characters, keeping only letters and numbers.
+
+**Dataset:** Raw Text (with symbols), Clean Text
+
+**Formula Covered**
+
+```excel
+=REGEXREPLACE(B4,"[^A-Za-z0-9]","")
+```
+
+Example: `Ravi@Kumar#123` → `RaviKumar123`
+
+**Screenshot**
+
+![Special Characters](Screenshot_2026-11-16_231218.png)
+
+---
+
+### 6. Split Name
+Splits a full name into First Name and Last Name.
+
+**Dataset:** Sr No, Full Name, First Name, Last Name
+
+**Methods:** Flash Fill (Ctrl + E), Text to Columns (space as delimiter), or `TEXTBEFORE` / `TEXTAFTER`.
+
+**Screenshot**
+
+![Split Name](Screenshot_2026-11-16_231234.png)
+
+---
+
+### 7. Phone Numbers
+Standardizes mobile numbers typed as `9000000002`, `919000000006` or `00919000000003` into one `+91` format.
+
+**Dataset:** Raw Digit Mobile Number, Corrected Mobile Number
+
+**Formula Covered**
+
+```excel
+="+91 "&RIGHT(B4,10)
+```
+
+`RIGHT(…,10)` keeps the last 10 digits, so the country-code prefix (`91`, `0091`, `0`) is dropped before `+91` is added.
+
+**Screenshot**
+
+![Phone Numbers](Screenshot_2026-11-16_231252.png)
+
+---
+
+### 8. Merge Columns
+Combines House No, Street, City, State and Pincode into one address.
+
+**Dataset:** Sr No, House No, Street, City, State, Pincode, Address
+
+**Formula Covered**
+
+```excel
+=TEXTJOIN("-",TRUE,B4:F4)
+```
+
+Example: `101-9 Cherry Lane-Delhi-Delhi-500011`
+
+`TRUE` skips empty cells so no extra separators appear.
+
+**Screenshot**
+
+![Merge Columns](Screenshot_2026-11-16_231306.png)
+
+---
+
+### 9. Text to Number
+Converts text amounts such as `Rs. 1,200`, `₹3,500` and `Rs.2,20,000` into real numbers, then builds a running total.
+
+**Dataset:** Amount (Raw Text), Cleaned Number, Running Total
+
+**Concepts Covered**
+- Removing `Rs.`, `₹`, commas and spaces
+- Text numbers (green triangle) vs. real numbers
+- Running total
+
+**Running Total Formula**
+
+```excel
+D4: =C4
+D5: =SUM(D4,C5)
+```
+
+**Screenshot**
+
+![Text to Number](Screenshot_2026-11-16_231322.png)
+
+---
+
+### 10. Fill Down Blanks
+Fixes exported reports where the Region appears only once per group and the rows below are blank.
+
+**Dataset:** Region (Raw – blank rows), Product, Sales Amount (Rs.), Region (Filled Down)
+
+**Formula Covered**
+
+```excel
+=B4        → first row
+B5: =B4    → blank cell takes the value above
+```
+
+**Method:** Select the column → Ctrl + G → Special → Blanks → type `=` + Up Arrow → Ctrl + Enter.
+
+**Screenshot**
+
+![Fill Down Blanks](Screenshot_2026-11-16_231335.png)
+
+---
+
+### 11. Extract Numbers
+Pulls the quantity out of order notes such as `Delivery Qty: 25 units - urgent`.
+
+**Dataset:** Raw Order Note, Number
+
+**Result:** `25`, `8`, `120`, `6`, `45`, `300` …
+
+**Method:** Flash Fill (Ctrl + E) or a text formula (e.g. `REGEXEXTRACT`).
+
+**Screenshot**
+
+![Extract Numbers](Screenshot_2026-11-16_231347.png)
+
+---
+
+### 12. Split City-State
+Splits a combined `City, State` column into two columns.
+
+**Dataset:** Sr No, Raw Location (City, State), City, State
+
+**Examples**
+- `Mumbai, Maharashtra` → Mumbai | Maharashtra
+- `Delhi` (no comma) → Delhi | Delhi
+
+**Method:** Text to Columns with comma as delimiter, or Flash Fill.
+
+**Screenshot**
+
+![Split City-State](Screenshot_2026-11-16_231357.png)
+
+---
+
+### 13. Raw Emp. Data
+The raw employee dataset used for the client task.
+
+**Dataset:** Name, Location, Annual Salary (₹), Monthly Salary (₹)
+
+**Issues Found**
+- Duplicate rows (e.g. Charan S. Billa, Aamir Sheikh)
+- Extra leading spaces in names
+- Salaries stored in Indian number format (₹4,80,000)
+
+**Screenshot**
+
+![Raw Emp. Data](Screenshot_2026-11-16_231408.png)
+
+---
+
+### 14. Clients Requirement
+Applies the cleaning steps to the raw data and answers the client's request.
+
+**Task:** Highlight entries where Monthly Salary is greater than 100,000.
+
+**Steps**
+1. Remove duplicates
+2. Trim extra spaces in names
+3. Convert salaries to real numbers
+4. Select the Monthly Salary column → Home → Conditional Formatting → Highlight Cells Rules → Greater Than → `100000`
+
+**Screenshot**
+
+![Clients Requirement](Screenshot_2026-11-16_231434.png)
+
+---
+
+### Data Cleaning Summary
+
+| Problem | Technique | Function / Feature |
+|---|---|---|
+| Duplicate rows | Remove Duplicates | Data → Remove Duplicates |
+| Extra spaces | Trim text | `TRIM`, `LEN` |
+| Inconsistent case | Change case | `PROPER`, `UPPER`, `LOWER` |
+| Mixed date formats | Standardize dates | Date number format |
+| Junk symbols | Keep letters & digits | `REGEXREPLACE` |
+| Full name in one cell | Split text | Flash Fill / Text to Columns |
+| Inconsistent phone numbers | Keep last 10 digits | `RIGHT` |
+| Address in many columns | Merge | `TEXTJOIN` |
+| Numbers stored as text | Convert to numbers | Clean text + `SUM` |
+| Blank cells in exported report | Fill down | Go To Special → Blanks |
+| Number inside text | Extract | Flash Fill / `REGEXEXTRACT` |
+| Combined City, State | Split | Text to Columns |
+| Salary above a limit | Highlight | Conditional Formatting |
+
+### Data Analysis
+These exercises show how raw, messy data is cleaned and made ready for analysis.
+
+The practice includes:
+- Removing duplicate employee records
+- Removing extra spaces
+- Standardizing text case
+- Standardizing dates
+- Removing special characters
+- Splitting and merging columns
+- Standardizing phone numbers
+- Converting text to numbers
+- Filling blank cells in exported reports
+- Extracting numbers from text
+- Highlighting salaries above 100,000
+
+### Key Learning
+Clean data is the foundation of reliable analysis. Excel provides formulas and built-in tools (TRIM, PROPER, TEXTJOIN, REGEXREPLACE, Flash Fill, Text to Columns, Remove Duplicates, Conditional Formatting) that fix common data-quality problems quickly and without manual editing.
